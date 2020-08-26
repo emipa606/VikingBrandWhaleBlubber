@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Multi Vitamins -->
+
+  <VBWB_Multi_Vit.label>VBWB Multi Vitamins</VBWB_Multi_Vit.label>
+  <VBWB_Multi_Vit.description>A civilised "wonder" pill taken daily and used for boosting immunity and avoidance of food poisoning. Can be combined with a healthy diet, regular exercise and general hygiene for even greater benefit.</VBWB_Multi_Vit.description>
+
+
+  <!-- Laxative -->
+
+  <VBWB_Laxative_Oil.label>VBWB Laxative Oil</VBWB_Laxative_Oil.label>
+  <VBWB_Laxative_Oil.description>A potent herbal tincture that will prevent gutworms for up to 5 days. Side effects have been reported.</VBWB_Laxative_Oil.description>
+
+
+  <!-- VBWB Parasite Inhibitor -->
+
+  <VBWB_Parasite_Inhibitor.label>VBWB Parasite Inhibitor</VBWB_Parasite_Inhibitor.label>
+  <VBWB_Parasite_Inhibitor.description>A strange device that is ingested and stays in the stomach for up to a year to help prevent muscle parasites. This is achieved by injecting characterised soothing pain control chemicals into the bloodstream.</VBWB_Parasite_Inhibitor.description>
+
+
+</LanguageData>

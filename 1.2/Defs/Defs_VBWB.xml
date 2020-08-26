@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ================= VBWB ============================= -->
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>VBWB</defName>
+    <label>Viking Brand Whale Blubber</label>
+    <description>Viking Brand Whale Blubber, made from the finest aquatic ingrediants known to mankind.</description>
+    <graphicData>
+      <texPath>Things/Item/VBWB/Blubber</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>10.0</MarketValue>
+      <Mass>0.025</Mass>
+      <Nutrition>0.05</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <ingestible>
+      <foodType>AnimalProduct</foodType>
+      <preferability>MealSimple</preferability>
+      <joy>0.05</joy>
+      <joyKind>Gluttonous</joyKind>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <thingCategories>
+      <li>AnimalProductRaw</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- =============================== Bannock ============================ -->
+  <ThingDef ParentName="MealBase">
+    <defName>VBWB_Bannock</defName>
+    <label>VBWB Bannock</label>
+    <description>A high-quality simple leavened bread, manufactured with whale oil, flour, salt and the love of VBWB Chefs for use in survival situations, sometimes it contains raisans, sometimes maple syrup. Resistant to rotting, though it can still deteriorate if left outside. Great for traveling.</description>
+    <graphicData>
+      <texPath>Things/Item/VBWB/Bannock</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.3</DeteriorationRate>
+      <MarketValue>20</MarketValue>
+      <Mass>0.25</Mass>
+      <WorkToMake>400</WorkToMake>
+      <Nutrition>0.85</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <optimalityOffsetHumanlikes>5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-5</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <!-- ============================ Whale meat ============================ -->
+  <!-- Need whales -->
+  <!-- ============================ Whaleskin ============================== -->
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_VBWB_Whale</defName>
+    <label>VBWB Whaleskin</label>
+    <description>The skin taken from a whale as a byproduct to the production of VBWB.</description>
+    <graphicData>
+      <color>(80,80,100)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.0</MarketValue>
+      <StuffPower_Armor_Sharp>0.88</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+    </statBases>
+    <stuffProps>
+      <color>(80,80,100)</color>
+      <commonality>0.075</commonality>
+    </stuffProps>
+  </ThingDef>
+  <!-- ================================= T-Shirt ============================ -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>VBWB_TShirt</defName>
+    <label>VBWB T-shirt</label>
+    <description>A simple T-shirt with the awesome VBWB product depicted.</description>
+    <graphicData>
+      <texPath>Things/Pawn/VBWB/VBWB_TShirt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1600</WorkToMake>
+      <Mass>0.25</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/VBWB/VBWB_TShirt_Worn/VBWB_TShirt</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+  <!-- ============================ Hat ======================================= -->
+  <ThingDef ParentName="HatBase">
+    <defName>VBWB_Helmet</defName>
+    <label>VBWB Helmet</label>
+    <description>A party hat to make you look like an angry person of scandinavian origin.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Pawn/VBWB/VBWB_Helmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>0.7</Flammability>
+      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>1</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+      <MarketValue>50</MarketValue>
+    </statBases>
+    <equippedStatOffsets>
+      <PsychicSensitivity>-0.10</PsychicSensitivity>
+      <TameAnimalChance>-0.10</TameAnimalChance>
+      <Beauty>-1</Beauty>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/VBWB/VBWB_Helmet_Worn/VBWB_Helmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+    </apparel>
+  </ThingDef>
+  <!-- ============================= Vape ========================================= -->
+  <ThingDef ParentName="MakeableDrugBase">
+    <defName>VBWB_Vape</defName>
+    <label>VBWB Vape</label>
+    <description>Experience the joy when exposed to vaping a combination of enriching whale blubber and psychoid leaves.</description>
+    <graphicData>
+      <texPath>Things/Item/VBWB/Vape</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <MarketValue>20</MarketValue>
+      <Mass>0.1</Mass>
+      <DeteriorationRate>1</DeteriorationRate>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <foodType>Plant, Processed</foodType>
+      <joyKind>Chemical</joyKind>
+      <joy>0.80</joy>
+      <baseIngestTicks>720</baseIngestTicks>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Smoke</ingestSound>
+      <ingestEffect>Smoke_Joint</ingestEffect>
+      <ingestEffectEat>EatVegetarian</ingestEffectEat>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.27,0,0.08)</offset>
+          <behind>true</behind>
+        </northDefault>
+        <east>
+          <offset>(0.45,0,0.08)</offset>
+        </east>
+        <south>
+          <offset>(0.27,0,0.08)</offset>
+        </south>
+        <west>
+          <offset>(-0.50,0,0.08)</offset>
+          <flip>false</flip>
+        </west>
+      </ingestHoldOffsetStanding>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Smoke {0}</ingestCommandString>
+      <ingestReportString>Vaping {0}.</ingestReportString>
+      <ingestReportStringEat>Vaping {0}.</ingestReportStringEat>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>VBWB_Vape_High</hediffDef>
+          <severity>0.5</severity>
+          <toleranceChemical>Smokeleaf</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>-0.05</offset>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>SmokeleafTolerance</hediffDef>
+          <severity>0.02</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>DrugProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <skillRequirements>
+        <Intellectual>5</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <SmokeleafLeaves>10</SmokeleafLeaves>
+      <Steel>1</Steel>
+      <VBWB>1</VBWB>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Smokeleaf</chemical>
+        <addictiveness>0.010</addictiveness>
+        <minToleranceToAddict>0.15</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.06</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>20</listOrder>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>VBWB_Vape_High</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>stoned on smokeleaf vape</label>
+    <description>stoned on smokeleaf vape</description>
+    <labelNoun>a smokeleaf vape high</labelNoun>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <hungerRateFactorOffset>0.25</hungerRateFactorOffset>
+        <painOffset>-0.25</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>VBWB_Vape_Thought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>VBWB_Vape_High</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>high on smokeleaf vape</label>
+        <description>I'm, like, stoned, man. Where's them bannocks?</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- ============================ Nettles ==================================== -->
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Nettle</defName>
+    <label>Nettle</label>
+    <description>Wild weed that can sting. Slows down anyone moving over it.</description>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <Flammability>1.1</Flammability>
+      <Nutrition>0.16</Nutrition>
+    </statBases>
+    <selectable>true</selectable>
+    <pathCost>25</pathCost>
+    <graphicData>
+      <texPath>Things/Plant/Nettle</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <hideAtSnowDepth>0.5</hideAtSnowDepth>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>0.7</fertilitySensitivity>
+      <growDays>5</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>NettleLeaves</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <sowMinSkill>4</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <harvestWork>50</harvestWork>
+      <!--	<maxMeshCount>9</maxMeshCount> -->
+      <visualSizeRange>0.5~0.85</visualSizeRange>
+      <topWindExposure>0.4</topWindExposure>
+      <!--	<wildClusterRadius>2</wildClusterRadius>
+			<wildClusterWeight>5</wildClusterWeight> -->
+      <wildOrder>1</wildOrder>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>NettleLeaves</defName>
+    <label>Nettle leaves</label>
+    <description>Raw cut leaves of a nettle plant. Can be brewed into a refreshing tea beverage.</description>
+    <graphicData>
+      <texPath>Things/Item/NettleLeaves</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.8</MarketValue>
+      <Flammability>1.2</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>45</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+    </ingestible>
+  </ThingDef>
+  <!-- =============================Nettle Tea ============================================= -->
+  <ThingDef ParentName="MakeableDrugBase">
+    <defName>VBWB_Nettle_Tea</defName>
+    <label>VBWB Nettle Tea</label>
+    <description>Refreshing combination of ecstactically refined whale blubber brewed with nettle leaves.</description>
+    <graphicData>
+      <texPath>Things/Item/VBWB/Tea</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.88</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>400</WorkToMake>
+      <MarketValue>9</MarketValue>
+      <Mass>0.08</Mass>
+      <DeteriorationRate>3</DeteriorationRate>
+    </statBases>
+    <ingestible>
+      <foodType>Fluid, Processed</foodType>
+      <joyKind>Chemical</joyKind>
+      <joy>0.40</joy>
+      <baseIngestTicks>240</baseIngestTicks>
+      <nurseable>false</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Drink</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>NettleVBWBHigh</hediffDef>
+          <severity>0.65</severity>
+          <toleranceChemical>Psychite</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.3</offset>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>PsychiteTolerance</hediffDef>
+          <severity>0.01</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>PsychoidBrewing</researchPrerequisite>
+      <recipeUsers>
+        <li>Campfire</li>
+        <li>ElectricStove</li>
+        <li>FueledStove</li>
+      </recipeUsers>
+      <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+      <workSkill>Cooking</workSkill>
+      <skillRequirements>
+        <Cooking>4</Cooking>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <PsychoidLeaves>2</PsychoidLeaves>
+      <NettleLeaves>4</NettleLeaves>
+      <VBWB>1</VBWB>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Psychite</chemical>
+        <addictiveness>0.01</addictiveness>
+        <minToleranceToAddict>0.10</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.15</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>110</listOrder>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>NettleVBWBHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Refreshed by VBWB Nettle tea</label>
+    <description>Refreshed by VBWB Nettle tea</description>
+    <labelNoun>a VBWB Tea boost</labelNoun>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-2.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <restFallFactor>0.75</restFallFactor>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>NettleVBWB</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>NettleVBWBHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>VBWB Tea</label>
+        <description>Drinking VBWB Nettle tea is a scream. I almost feel younger!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- =================== Bulk Recipes =============================== -->
+  <RecipeDef>
+    <defName>MakeBulkVBWBTea</defName>
+    <label>Make VBWB Tea in bulk</label>
+    <description>Steep 5 VBWB Nettle Teas.</description>
+    <jobString>Steeping VBWB Nettle Tea.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>1850</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PsychoidLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>NettleLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>VBWB</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PsychoidLeaves</li>
+        <li>NettleLeaves</li>
+        <li>VBWB</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <VBWB_Nettle_Tea>5</VBWB_Nettle_Tea>
+    </products>
+    <recipeUsers>
+      <li>Campfire</li>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>5</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>VBWB_Tea_Bulk</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkVBWBVape</defName>
+    <label>Make VBWB Vape in bulk</label>
+    <description>Make 5 VBWB Vapes.</description>
+    <jobString>Making VBWB Vape.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>2800</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SmokeleafLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>VBWB</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SmokeleafLeaves</li>
+        <li>Steel</li>
+        <li>VBWB</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <VBWB_Vape>5</VBWB_Vape>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>6</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>VBWB_Vape_Bulk</researchPrerequisite>
+  </RecipeDef>
+</Defs>

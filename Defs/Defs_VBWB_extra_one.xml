@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Multi Vitamins -->
+  <ThingDef ParentName="MakeableDrugBase">
+    <defName>VBWB_Multi_Vit</defName>
+    <label>VBWB Multi Vitamins</label>
+    <description>A civilised "wonder" pill taken daily and used for boosting immunity and avoidance of food poisoning. Can be combined with a healthy diet, regular exercise and general hygiene for even greater benefit.</description>
+    <graphicData>
+      <texPath>Things/Item/VBWB/Vitamins</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>300</WorkToMake>
+      <MarketValue>10</MarketValue>
+      <Mass>0.003</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <foodType>Processed, Fluid</foodType>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>VBWB_Vitamins_High</hediffDef>
+          <severity>1</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Neutroamine>1</Neutroamine>
+      <RawBerries>5</RawBerries>
+      <VBWB>1</VBWB>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1300</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>VBWB_Vitamins_High</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>VBWB Vitamin boost</label>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <makeImmuneTo>
+          <li>FoodPoisoning</li>
+        </makeImmuneTo>
+        <!-- <label>feels healthier</label> -->
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <RecipeDef>
+    <defName>MakeBulkVBWBVits</defName>
+    <label>Make VBWB Vitamins in bulk</label>
+    <description>Make 5 VBWB Multi-Vits.</description>
+    <jobString>Making VBWB Multi-Vits.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>1500</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawBerries</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>VBWB</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Neutroamine</li>
+        <li>RawBerries</li>
+        <li>VBWB</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <VBWB_Multi_Vit>5</VBWB_Multi_Vit>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>5</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>VBWB_Vitamins_Bulk</researchPrerequisite>
+  </RecipeDef>
+  <!-- ============= Laxative ====================== -->
+  <ThingDef ParentName="MakeableDrugBase">
+    <defName>VBWB_Laxative_Oil</defName>
+    <label>VBWB Laxative Oil</label>
+    <description>A potent herbal tincture that will prevent gutworms for up to 5 days. Side effects have been reported.</description>
+    <graphicData>
+      <texPath>Things/Item/VBWB/Laxative</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>700</WorkToMake>
+      <MarketValue>15</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <foodType>Processed, Fluid</foodType>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>VBWB_Laxative_High</hediffDef>
+          <severity>5</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Neutroamine>2</Neutroamine>
+      <Chemfuel>5</Chemfuel>
+      <NettleLeaves>20</NettleLeaves>
+      <VBWB>1</VBWB>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1302</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>VBWB_Laxative_High</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>VBWB Laxative</label>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>5.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <makeImmuneTo>
+          <li>GutWorms</li>
+        </makeImmuneTo>
+        <hungerRateFactorOffset>0.05</hungerRateFactorOffset>
+        <label>has stomach grumbles</label>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>+0.05</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <RecipeDef>
+    <defName>MakeBulkVBWBLaxative</defName>
+    <label>Make VBWB Laxative in bulk</label>
+    <description>Make 5 VBWB Laxative Oils.</description>
+    <jobString>Making VBWB Laxative.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>3500</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>NettleLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>VBWB</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Neutroamine</li>
+        <li>Chemfuel</li>
+        <li>NettleLeaves</li>
+        <li>VBWB</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <VBWB_Laxative_Oil>5</VBWB_Laxative_Oil>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>5</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>VBWB_Laxative_Bulk</researchPrerequisite>
+  </RecipeDef>
+  <!-- ============= VBWB Parasite Inhibitor =================== -->
+  <ThingDef ParentName="MakeableDrugBase">
+    <defName>VBWB_Parasite_Inhibitor</defName>
+    <label>VBWB Parasite Inhibitor</label>
+    <description>A strange device that is ingested and stays in the stomach for up to a year to help prevent muscle parasites. This is achieved by injecting characterised soothing pain control chemicals into the bloodstream.</description>
+    <graphicData>
+      <texPath>Things/Item/VBWB/Inhibitor</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>2500</WorkToMake>
+      <MarketValue>399</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <foodType>Processed, Fluid</foodType>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>VBWB_Inhibitor_High</hediffDef>
+          <severity>60</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Neutroamine>5</Neutroamine>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <Leather_VBWB_Whale>10</Leather_VBWB_Whale>
+      <VBWB>2</VBWB>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1301</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>VBWB_Inhibitor_High</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>VBWB Inhibitor</label>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>60</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <makeImmuneTo>
+          <li>MuscleParasites</li>
+        </makeImmuneTo>
+        <painOffset>-0.10</painOffset>
+        <label>mild pain relief</label>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

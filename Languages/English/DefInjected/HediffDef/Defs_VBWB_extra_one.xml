@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Multi Vitamins -->
+
+  <VBWB_Vitamins_High.label>VBWB Vitamin boost</VBWB_Vitamins_High.label>
+
+
+  <!-- Laxative -->
+
+  <VBWB_Laxative_High.label>VBWB Laxative</VBWB_Laxative_High.label>
+  <VBWB_Laxative_High.stages.0.label>has stomach grumbles</VBWB_Laxative_High.stages.0.label>
+
+
+  <!-- VBWB Parasite Inhibitor -->
+
+  <VBWB_Inhibitor_High.label>VBWB Inhibitor</VBWB_Inhibitor_High.label>
+  <VBWB_Inhibitor_High.stages.0.label>mild pain relief</VBWB_Inhibitor_High.stages.0.label>
+
+
+</LanguageData>
