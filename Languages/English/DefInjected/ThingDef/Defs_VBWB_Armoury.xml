@@ -1,22 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Flencing Blade -->
-
-  <VBWB_FlensingBlade.label>VBWB Flensing Blade</VBWB_FlensingBlade.label>
-  <VBWB_FlensingBlade.description>A polearm tipped with an axe like blade. Normally used for extracting blubber from large aquatic mammals.</VBWB_FlensingBlade.description>
-  <VBWB_FlensingBlade.tools.0.label>shaft</VBWB_FlensingBlade.tools.0.label>
-  <VBWB_FlensingBlade.tools.1.label>point</VBWB_FlensingBlade.tools.1.label>
-  <VBWB_FlensingBlade.tools.2.label>edge</VBWB_FlensingBlade.tools.2.label>
-
-
+  <!--<VBWB_FlensingBlade.label>VBWB Flensing Blade</VBWB_FlensingBlade.label>-->
+  <!--<VBWB_FlensingBlade.description>A polearm tipped with an axe like blade. Normally used for extracting blubber from large aquatic mammals.</VBWB_FlensingBlade.description>-->
+  <!--<VBWB_FlensingBlade.tools.0.label>shaft</VBWB_FlensingBlade.tools.0.label>-->
+  <!--<VBWB_FlensingBlade.tools.1.label>point</VBWB_FlensingBlade.tools.1.label>-->
+  <!--<VBWB_FlensingBlade.tools.2.label>edge</VBWB_FlensingBlade.tools.2.label>-->
   <!-- Ranged -->
-
-  <VBWB_MHG.label>VBWB MHG</VBWB_MHG.label>
-  <VBWB_MHG.description>A machine harpoon gun (MHG). The latest fashion in hunting large aquatic creatures.</VBWB_MHG.description>
-  <VBWB_MHG.tools.0.label>barrels</VBWB_MHG.tools.0.label>
-
-  <VBWB_Harpoon.label>VBWB Harpoon</VBWB_Harpoon.label>
-
+  <!--<VBWB_MHG.label>VBWB MHG</VBWB_MHG.label>-->
+  <!--<VBWB_MHG.description>A machine harpoon gun (MHG). The latest fashion in hunting large aquatic creatures.</VBWB_MHG.description>-->
+  <!--<VBWB_MHG.tools.0.label>barrels</VBWB_MHG.tools.0.label>-->
+  <!--<VBWB_Harpoon.label>VBWB Harpoon</VBWB_Harpoon.label>-->
 
 </LanguageData>

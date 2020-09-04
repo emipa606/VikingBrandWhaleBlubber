@@ -1,16 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Vape -->
-
-  <VBWB_Vape_Thought.stages.0.label>high on smokeleaf vape</VBWB_Vape_Thought.stages.0.label>
-  <VBWB_Vape_Thought.stages.0.description>I'm, like, stoned, man. Where's them bannocks?</VBWB_Vape_Thought.stages.0.description>
-
-
+  <!--<VBWB_Vape_Thought.stages.0.label>high on smokeleaf vape</VBWB_Vape_Thought.stages.0.label>-->
+  <!--<VBWB_Vape_Thought.stages.0.description>I'm, like, stoned, man. Where's them bannocks?</VBWB_Vape_Thought.stages.0.description>-->
   <!-- Nettle Tea -->
-
-  <NettleVBWB.stages.0.label>VBWB Tea</NettleVBWB.stages.0.label>
-  <NettleVBWB.stages.0.description>Drinking VBWB Nettle tea is a scream. I almost feel younger!</NettleVBWB.stages.0.description>
-
+  <!--<NettleVBWB.stages.0.label>VBWB Tea</NettleVBWB.stages.0.label>-->
+  <!--<NettleVBWB.stages.0.description>Drinking VBWB Nettle tea is a scream. I almost feel younger!</NettleVBWB.stages.0.description>-->
 
 </LanguageData>
