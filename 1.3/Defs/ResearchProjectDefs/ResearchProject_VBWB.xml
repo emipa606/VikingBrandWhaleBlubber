@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchTabDef>
+    <defName>VBWBTab</defName>
+    <label>Viking Brand Whale Blubber</label>
+  </ResearchTabDef>
+  <ResearchProjectDef>
+    <defName>VBWB_Tea_Bulk</defName>
+    <label>Bulk VBWB Tea</label>
+    <description>Grants the ability to make VBWB Tea in bulk.</description>
+    <baseCost>250</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>PsychoidBrewing</li>
+    </prerequisites>
+    <tab>VBWBTab</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>VBWB_Vape_Bulk</defName>
+    <label>Bulk VBWB Vape</label>
+    <description>Grants the ability to make VBWB Vape in bulk.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+    <tab>VBWBTab</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>VBWB_Vitamins_Bulk</defName>
+    <label>Bulk VBWB Vitamins</label>
+    <description>Grants the ability to make VBWB Multi-Vitamins in bulk.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+    <tab>VBWBTab</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>VBWB_Laxative_Bulk</defName>
+    <label>Bulk VBWB Laxative Oil</label>
+    <description>Grants the ability to make VBWB Laxative Oil in bulk.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+    <tab>VBWBTab</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>VBWB_Lucid_Bulk</defName>
+    <label>Bulk VBWB Lucidity Cream</label>
+    <description>Grants the ability to make VBWB Lucidity cream in bulk.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+    <tab>VBWBTab</tab>
+  </ResearchProjectDef>
+</Defs>
