@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ============== Melee ========================= -->
+  <ThingDef Name="BaseVBWBMeleeWeapon" Abstract="True" ParentName="BaseWeapon">
+    <techLevel>Neolithic</techLevel>
+    <smeltable>true</smeltable>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- ================== Flencing Blade ========================= -->
+  <ThingDef ParentName="BaseVBWBMeleeWeapon">
+    <defName>VBWB_FlensingBlade</defName>
+    <label>VBWB Flensing Blade</label>
+    <description>A polearm tipped with an axe like blade. Normally used for extracting blubber from large aquatic mammals.</description>
+    <graphicData>
+      <texPath>Things/Item/VBWB/FlensingBlade/VBWB_FlensingBlade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>NeolithicMeleeAdvanced</li>
+      <li>MedievalMeleeAdvanced</li>
+      <li>IndustrialMeleeAdvanced</li>
+    </weaponTags>
+    <costStuffCount>80</costStuffCount>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>2.5</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.8</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>19</power>
+        <armorPenetration>0.50</armorPenetration>
+        <cooldownTime>2.8</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>3.0</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- ===================== Ranged ======================= -->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VBWB_MHG</defName>
+    <label>VBWB MHG</label>
+    <description>A machine harpoon gun (MHG). The latest fashion in hunting large aquatic creatures.</description>
+    <graphicData>
+      <texPath>Things/Item/VBWB/MHG/VBWB_MHG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <costList>
+      <Steel>120</Steel>
+      <ComponentIndustrial>16</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>7.5</Mass>
+      <AccuracyTouch>0.25</AccuracyTouch>
+      <AccuracyShort>0.40</AccuracyShort>
+      <AccuracyMedium>0.32</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+      <li>GunHeavy</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.12</MoveSpeed>
+    </equippedStatOffsets>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VBWB_Harpoon</defaultProjectile>
+        <warmupTime>2.5</warmupTime>
+        <range>24.9</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>25</ticksBetweenBurstShots>
+        <soundCast>Bow_Large</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>1</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrels</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15.7</power>
+        <cooldownTime>2.7</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>VBWB_Harpoon</defName>
+    <label>VBWB Harpoon</label>
+    <graphicData>
+      <texPath>Things/Projectile/VBWB_Harpoon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>17</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.20</armorPenetrationBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+</Defs>
