@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make VBWB Laxative in bulk -->
+  <MakeBulkVBWBLaxative.label>Make VBWB Laxative in bulk</MakeBulkVBWBLaxative.label>
+  <!-- EN: Make 5 VBWB Laxative Oils. -->
+  <MakeBulkVBWBLaxative.description>Make 5 VBWB Laxative Oils.</MakeBulkVBWBLaxative.description>
+  <!-- EN: Making VBWB Laxative. -->
+  <MakeBulkVBWBLaxative.jobString>Making VBWB Laxative.</MakeBulkVBWBLaxative.jobString>
+  <!-- EN: Make VBWB Vitamins in bulk -->
+  <MakeBulkVBWBVits.label>Make VBWB Vitamins in bulk</MakeBulkVBWBVits.label>
+  <!-- EN: Make 5 VBWB Multi-Vits. -->
+  <MakeBulkVBWBVits.description>Make 5 VBWB Multi-Vits.</MakeBulkVBWBVits.description>
+  <!-- EN: Making VBWB Multi-Vits. -->
+  <MakeBulkVBWBVits.jobString>Making VBWB Multi-Vits.</MakeBulkVBWBVits.jobString>
+</LanguageData>

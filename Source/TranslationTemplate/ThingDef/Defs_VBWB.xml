@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: VBWB Whaleskin -->
+  <Leather_VBWB_Whale.label>VBWB Whaleskin</Leather_VBWB_Whale.label>
+  <!-- EN: The skin taken from a whale as a byproduct to the production of VBWB. -->
+  <Leather_VBWB_Whale.description>The skin taken from a whale as a byproduct to the production of VBWB.</Leather_VBWB_Whale.description>
+  <!-- EN: Nettle leaves -->
+  <NettleLeaves.label>Nettle leaves</NettleLeaves.label>
+  <!-- EN: Raw cut leaves of a nettle plant. Can be brewed into a refreshing tea beverage. -->
+  <NettleLeaves.description>Raw cut leaves of a nettle plant. Can be brewed into a refreshing tea beverage.</NettleLeaves.description>
+  <!-- EN: Nettle -->
+  <Plant_Nettle.label>Nettle</Plant_Nettle.label>
+  <!-- EN: Wild weed that can sting. Slows down anyone moving over it. -->
+  <Plant_Nettle.description>Wild weed that can sting. Slows down anyone moving over it.</Plant_Nettle.description>
+  <!-- EN: Viking Brand Whale Blubber -->
+  <VBWB.label>Viking Brand Whale Blubber</VBWB.label>
+  <!-- EN: Viking Brand Whale Blubber, made from the finest aquatic ingrediants known to mankind. -->
+  <VBWB.description>Viking Brand Whale Blubber, made from the finest aquatic ingrediants known to mankind.</VBWB.description>
+  <!-- EN: VBWB Bannock -->
+  <VBWB_Bannock.label>VBWB Bannock</VBWB_Bannock.label>
+  <!-- EN: A high-quality simple leavened bread, manufactured with whale oil, flour, salt and the love of VBWB Chefs for use in survival situations, sometimes it contains raisans, sometimes maple syrup. Resistant to rotting, though it can still deteriorate if left outside. Great for traveling. -->
+  <VBWB_Bannock.description>A high-quality simple leavened bread, manufactured with whale oil, flour, salt and the love of VBWB Chefs for use in survival situations, sometimes it contains raisans, sometimes maple syrup. Resistant to rotting, though it can still deteriorate if left outside. Great for traveling.</VBWB_Bannock.description>
+  <!-- EN: VBWB Helmet -->
+  <VBWB_Helmet.label>VBWB Helmet</VBWB_Helmet.label>
+  <!-- EN: A party hat to make you look like an angry person of scandinavian origin. -->
+  <VBWB_Helmet.description>A party hat to make you look like an angry person of scandinavian origin.</VBWB_Helmet.description>
+  <!-- EN: VBWB Nettle Tea -->
+  <VBWB_Nettle_Tea.label>VBWB Nettle Tea</VBWB_Nettle_Tea.label>
+  <!-- EN: Refreshing combination of ecstactically refined whale blubber brewed with nettle leaves. -->
+  <VBWB_Nettle_Tea.description>Refreshing combination of ecstactically refined whale blubber brewed with nettle leaves.</VBWB_Nettle_Tea.description>
+  <!-- EN: Drink {0} -->
+  <VBWB_Nettle_Tea.ingestible.ingestCommandString>Drink {0}</VBWB_Nettle_Tea.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <VBWB_Nettle_Tea.ingestible.ingestReportString>Drinking {0}.</VBWB_Nettle_Tea.ingestible.ingestReportString>
+  <!-- EN: VBWB T-shirt -->
+  <VBWB_TShirt.label>VBWB T-shirt</VBWB_TShirt.label>
+  <!-- EN: A simple T-shirt with the awesome VBWB product depicted. -->
+  <VBWB_TShirt.description>A simple T-shirt with the awesome VBWB product depicted.</VBWB_TShirt.description>
+  <!-- EN: VBWB Vape -->
+  <VBWB_Vape.label>VBWB Vape</VBWB_Vape.label>
+  <!-- EN: Experience the joy when exposed to vaping a combination of enriching whale blubber and psychoid leaves. -->
+  <VBWB_Vape.description>Experience the joy when exposed to vaping a combination of enriching whale blubber and psychoid leaves.</VBWB_Vape.description>
+  <!-- EN: Smoke {0} -->
+  <VBWB_Vape.ingestible.ingestCommandString>Smoke {0}</VBWB_Vape.ingestible.ingestCommandString>
+  <!-- EN: Vaping {0}. -->
+  <VBWB_Vape.ingestible.ingestReportString>Vaping {0}.</VBWB_Vape.ingestible.ingestReportString>
+  <!-- EN: Vaping {0}. -->
+  <VBWB_Vape.ingestible.ingestReportStringEat>Vaping {0}.</VBWB_Vape.ingestible.ingestReportStringEat>
+</LanguageData>

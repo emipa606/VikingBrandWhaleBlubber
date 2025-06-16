@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make VBWB Tea in bulk -->
+  <MakeBulkVBWBTea.label>Make VBWB Tea in bulk</MakeBulkVBWBTea.label>
+  <!-- EN: Steep 5 VBWB Nettle Teas. -->
+  <MakeBulkVBWBTea.description>Steep 5 VBWB Nettle Teas.</MakeBulkVBWBTea.description>
+  <!-- EN: Steeping VBWB Nettle Tea. -->
+  <MakeBulkVBWBTea.jobString>Steeping VBWB Nettle Tea.</MakeBulkVBWBTea.jobString>
+  <!-- EN: Make VBWB Vape in bulk -->
+  <MakeBulkVBWBVape.label>Make VBWB Vape in bulk</MakeBulkVBWBVape.label>
+  <!-- EN: Make 5 VBWB Vapes. -->
+  <MakeBulkVBWBVape.description>Make 5 VBWB Vapes.</MakeBulkVBWBVape.description>
+  <!-- EN: Making VBWB Vape. -->
+  <MakeBulkVBWBVape.jobString>Making VBWB Vape.</MakeBulkVBWBVape.jobString>
+</LanguageData>

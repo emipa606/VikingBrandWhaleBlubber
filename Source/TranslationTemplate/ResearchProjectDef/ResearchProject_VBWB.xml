@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Bulk VBWB Laxative Oil -->
+  <VBWB_Laxative_Bulk.label>Bulk VBWB Laxative Oil</VBWB_Laxative_Bulk.label>
+  <!-- EN: Grants the ability to make VBWB Laxative Oil in bulk. -->
+  <VBWB_Laxative_Bulk.description>Grants the ability to make VBWB Laxative Oil in bulk.</VBWB_Laxative_Bulk.description>
+  <!-- EN: Bulk VBWB Lucidity Cream -->
+  <VBWB_Lucid_Bulk.label>Bulk VBWB Lucidity Cream</VBWB_Lucid_Bulk.label>
+  <!-- EN: Grants the ability to make VBWB Lucidity cream in bulk. -->
+  <VBWB_Lucid_Bulk.description>Grants the ability to make VBWB Lucidity cream in bulk.</VBWB_Lucid_Bulk.description>
+  <!-- EN: Bulk VBWB Tea -->
+  <VBWB_Tea_Bulk.label>Bulk VBWB Tea</VBWB_Tea_Bulk.label>
+  <!-- EN: Grants the ability to make VBWB Tea in bulk. -->
+  <VBWB_Tea_Bulk.description>Grants the ability to make VBWB Tea in bulk.</VBWB_Tea_Bulk.description>
+  <!-- EN: Bulk VBWB Vape -->
+  <VBWB_Vape_Bulk.label>Bulk VBWB Vape</VBWB_Vape_Bulk.label>
+  <!-- EN: Grants the ability to make VBWB Vape in bulk. -->
+  <VBWB_Vape_Bulk.description>Grants the ability to make VBWB Vape in bulk.</VBWB_Vape_Bulk.description>
+  <!-- EN: Bulk VBWB Vitamins -->
+  <VBWB_Vitamins_Bulk.label>Bulk VBWB Vitamins</VBWB_Vitamins_Bulk.label>
+  <!-- EN: Grants the ability to make VBWB Multi-Vitamins in bulk. -->
+  <VBWB_Vitamins_Bulk.description>Grants the ability to make VBWB Multi-Vitamins in bulk.</VBWB_Vitamins_Bulk.description>
+</LanguageData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: VBWB Inhibitor -->
+  <VBWB_Inhibitor_High.label>VBWB Inhibitor</VBWB_Inhibitor_High.label>
+  <!-- EN: VBWB Inhibitor -->
+  <VBWB_Inhibitor_High.description>VBWB Inhibitor</VBWB_Inhibitor_High.description>
+  <!-- EN: mild pain relief -->
+  <VBWB_Inhibitor_High.stages.mild_pain_relief.label>mild pain relief</VBWB_Inhibitor_High.stages.mild_pain_relief.label>
+  <!-- EN: VBWB Laxative -->
+  <VBWB_Laxative_High.label>VBWB Laxative</VBWB_Laxative_High.label>
+  <!-- EN: VBWB Laxative -->
+  <VBWB_Laxative_High.description>VBWB Laxative</VBWB_Laxative_High.description>
+  <!-- EN: has stomach grumbles -->
+  <VBWB_Laxative_High.stages.has_stomach_grumbles.label>has stomach grumbles</VBWB_Laxative_High.stages.has_stomach_grumbles.label>
+  <!-- EN: VBWB Vitamin boost -->
+  <VBWB_Vitamins_High.label>VBWB Vitamin boost</VBWB_Vitamins_High.label>
+  <!-- EN: VBWB Vitamin boost -->
+  <VBWB_Vitamins_High.description>VBWB Vitamin boost</VBWB_Vitamins_High.description>
+</LanguageData>

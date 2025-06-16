@@ -1,0 +1,85 @@
+ManifestFileVersion: 0
+CRC: 2525869024
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 77894bc39b8795b475f9861d480cc04c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 77894bc39b8795b475f9861d480cc04c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Plant/Nettle/NettleB.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_GiletUtility/VBWB_GiletUtility_Female_east.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Tea/VBWB_Tea_a.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_GiletUtility/VBWB_GiletUtility_Thin_south.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Laxative/VBWB_Laxative_Oil_c.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Inhibitor/VBWB_Parasite_Inhibitor_b.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Inhibitor/VBWB_Parasite_Inhibitor_a.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_TShirt_Worn/VBWB_TShirt_Hulk_south.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_GiletUtility/VBWB_GiletUtility_Female_north.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_TShirt_Worn/VBWB_TShirt_Fat_east.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Inhibitor/VBWB_Parasite_Inhibitor_c.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Blubber/VBWB_a.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Vitamins/VBWB_Multi_Vit_b.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Projectile/VBWB_Harpoon.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_GiletUtility/VBWB_GiletUtility_Fat_east.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/FlensingBlade/VBWB_FlensingBlade.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Vape/VBWB_Vape_c.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Blubber/VBWB_b.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Vitamins/VBWB_Multi_Vit_c.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_TShirt_Worn/VBWB_TShirt_Male_south.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_Helmet_Worn/VBWB_Helmet_east.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Blubber/VBWB_c.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Bannock/VBWB_Bannock_b.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Lucid/VBWBLucidCream_a.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_TShirt_Worn/VBWB_TShirt_Female_north.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_GiletUtility/VBWB_GiletUtility_Male_south.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_TShirt_Worn/VBWB_TShirt_Hulk_north.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_TShirt_Worn/VBWB_TShirt_Thin_north.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/NettleLeaves.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_TShirt_Worn/VBWB_TShirt_Fat_south.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Laxative/VBWB_Laxative_Oil_b.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Bannock/VBWB_Bannock_c.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_TShirt_Worn/VBWB_TShirt_Female_south.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_GiletUtility/VBWB_GiletUtility_Fat_north.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_TShirt_Worn/VBWB_TShirt_Hulk_east.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Vape/VBWB_Vape_a.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/MHG/VBWB_MHG.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Vitamins/VBWB_Multi_Vit_a.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_GiletUtility/VBWB_GiletUtility_Hulk_east.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Plant/Nettle/NettleA.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Lucid/VBWBLucidCream_b.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_GiletUtility/VBWB_GiletUtility_Male_east.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_Helmet_Worn/VBWB_Helmet_north.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_GiletUtility/VBWB_GiletUtility_Female_south.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_GiletUtility/VBWB_GiletUtility_Hulk_north.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_GiletUtility/VBWB_GiletUtility_Hulk_south.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Bannock/VBWB_Bannock_a.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Tea/VBWB_Tea_b.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_TShirt_Worn/VBWB_TShirt_Thin_south.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_TShirt_Worn/VBWB_TShirt_Male_east.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_GiletUtility/VBWB_GiletUtility_Male_north.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_GiletUtility/VBWB_GiletUtility_Thin_east.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_Helmet_Worn/VBWB_Helmet_south.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Tea/VBWB_Tea_c.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_GiletUtility/VBWB_GiletUtility_Fat_south.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_TShirt_Worn/VBWB_TShirt_Male_north.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_Helmet.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Laxative/VBWB_Laxative_Oil_a.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_TShirt_Worn/VBWB_TShirt_Female_east.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Lucid/VBWBLucidCream_c.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_GiletUtility/VBWB_GiletUtility_Thin_north.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_TShirt_Worn/VBWB_TShirt_Thin_east.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_TShirt_Worn/VBWB_TShirt_Fat_north.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_TShirt.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Item/VBWB/Vape/VBWB_Vape_b.png
+- Assets/Data/Mlie.VikingBrandWhaleBlubber/Textures/Things/Pawn/VBWB/VBWB_GiletUtility/VBWB_GiletUtility.png
+Dependencies: []
